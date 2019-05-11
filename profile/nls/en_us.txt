@@ -7,6 +7,7 @@ ST-ctl-ST-NAME = NodeServer Online
 
 # thingnodetype
 ND-thingnodetype-NAME = Thing Node
+ND-thingnodetype-ICON = GenericCtl
 CMD-thingnode-ACTIONS-NAME = Message
 
 ACTION-0 = On
