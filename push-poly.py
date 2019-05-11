@@ -122,6 +122,7 @@ class thingnode(polyinterface.Node):
     
     def send_pushover(self, command = None):
         _message = int(command.get('value'))
+        LOGGER.debug(_message)
         try:
             LOGGER.info("Sending Pushover message")
             #config = self.config['alerts']['pushover']
