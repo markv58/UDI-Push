@@ -5,7 +5,7 @@
     "executable": "push-poly.py",
     "install": "install.sh",
     "install_cloud": "install_cloud.sh",
-    "description": "My Node Server",
+    "description": "Push Node Server",
     "notice": "Use at your own risk",
     "shortPoll": "120",
     "longPoll": "240",
