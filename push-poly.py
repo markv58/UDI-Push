@@ -26,7 +26,10 @@ ACTION = ['On',
 	  'Away',
 	  'Offline',
 	  'Low battery',
-	  'Armed'
+	  'Armed',
+	  'Disarmed',
+	  'Triggered',
+	  'Don''t forget!'
          ] 
 
 class Controller(polyinterface.Controller):
