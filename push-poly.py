@@ -18,9 +18,15 @@ ACTION = ['On',
 	  'Closed',
 	  'Locked',
 	  'Unlocked',
+	  'Lock jammed'
 	  'Motion detected',
 	  'Water leak',
-	  'Rang'
+	  'Rang',
+	  'At home',
+	  'Away',
+	  'Offline',
+	  'Low battery',
+	  'Armed'
          ] 
 
 class Controller(polyinterface.Controller):
