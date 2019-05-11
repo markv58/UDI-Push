@@ -15,6 +15,6 @@ Manual:
 
 Add Push to a node slot.
 
-Enter you user_key and api_key from your Pushover account in the custom configuration parameters. Enter the items or devices
+Enter your <user_key> and <api_key> from your Pushover account in the custom configuration parameters. Enter the items or devices
 you are ready to send notifications.
 
