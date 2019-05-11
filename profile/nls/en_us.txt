@@ -16,7 +16,12 @@ ACTION-4 = Open
 ACTION-5 = Closed
 ACTION-6 = Locked
 ACTION-7 = Unlocked
-ACTION-8 = Motion detected
-ACTION-9 = Water leak
-ACTION-10 = Rang
-
+ACTION-8 = Lock jammed
+ACTION-9 = Motion detected
+ACTION-10 = Water leak
+ACTION-11 = Rang
+ACTION-12 = At home
+ACTION-13 = Away
+ACTION-14 = Offline
+ACTION-15 = Low battery
+ACTION-16 = Armed
