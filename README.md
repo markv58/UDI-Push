@@ -23,5 +23,5 @@ Add Push to a node slot.
 Restart the Admin Console.
 
 Enter your <user_key> and <api_key> from your Pushover account in the custom configuration parameters. Enter the things and
-you are ready to send notifications.
+you are ready to send notifications from your programs.
 
