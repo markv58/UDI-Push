@@ -1,5 +1,6 @@
 # controller
 ND-controller-NAME = PushOver Controller
+ND-controller-ICON = Output
 CMD-ctl-UPDATE_PROFILE-NAME = Update Profile
 CMD-ctl-REMOVE_NOTICES_ALL-NAME = Remove Notices
 ST-ctl-ST-NAME = NodeServer Online
