@@ -2,6 +2,8 @@
 
 Using your Pushover account you can send notifications from a program without needing a network resource.
 
+This great for sending short pre-programed messages about your things, like doors, windows, leaks, alarms, lights, motion, low batteries, etc, etc.
+
 #### Installation
 
 Backup your ISY before installation please.
@@ -13,6 +15,8 @@ Manual:
     cd UDI-Push
     chmod +x install.sh
     ./install.sh
+
+Install from the NodeServer Store.
 
 Add Push to a node slot.
 
