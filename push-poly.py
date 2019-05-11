@@ -18,7 +18,7 @@ ACTION = ['On',
 	  'Closed',
 	  'Locked',
 	  'Unlocked',
-	  'Lock jammed'
+	  'Lock jammed',
 	  'Motion detected',
 	  'Water leak',
 	  'Rang',
