@@ -30,3 +30,5 @@ ACTION-16 = Armed
 ACTION-17 = Disarmed
 ACTION-18 = Triggered
 ACTION-19 = Don't forget!
+ACTION-20 = WARNING
+ACTION-21 = EMERGENCY
