@@ -1,0 +1,9 @@
+<editors>
+    <!-- Boolean -->
+    <editor id="bool">
+        <range uom="2" subset="0,1" />
+    </editor>
+    <editor id="action">
+        <range uom="25" subset="0-10" nls="ACTION" />
+    </editor>
+</editors>
