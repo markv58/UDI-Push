@@ -75,9 +75,7 @@ class Controller(polyinterface.Controller):
         _params = self.polyConfig['customParams']
         for key, val in _params.items():
             _key = key.lower()	
-            LOGGER.debug(_key)
             if _key == 'api_key' or _key == 'user_key': # should parse out the keys, all others will be node
-                LOGGER.debug('passed %s', _key)
             else:
                 _val = key.lower()
                 _cleanaddress = _val.replace(' ','')
@@ -124,7 +122,6 @@ class thingnode(polyinterface.Node):
     
     def send_pushover(self, command = None):
         _message = int(command.get('value'))
-        LOGGER.debug(_message)
         try:
             LOGGER.info("Sending Pushover message")
             #config = self.config['alerts']['pushover']
