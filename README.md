@@ -1,8 +1,10 @@
-#Push
+# Push
+
+Using your Pushover account you can send notifications from a program without needing a network resource.
 
 #### Installation
 
-Backup your ISY before installation.
+Backup your ISY before installation please.
 
 Manual:
 
