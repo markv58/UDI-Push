@@ -11,6 +11,7 @@ Manual:
     cd .polyglot/nodeservers
     git clone https://github.com/markv58/UDI-Push.git
     cd UDI-Push
+    chmod +x install.sh
     ./install.sh
 
 Add Push to a node slot.
