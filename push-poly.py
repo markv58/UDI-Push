@@ -41,7 +41,8 @@ class Controller(polyinterface.Controller):
         self.name = 'Push'
         self.api_key = 'none'
         self.user_key = 'none'
-	
+	self.d_read = False
+        
     def start(self):
         self.removeNoticesAll()
         LOGGER.info('Started Push Nodeserver')
@@ -72,6 +73,8 @@ class Controller(polyinterface.Controller):
             self.api_key = self.polyConfig['customParams']['api_key']               
         if 'user_key' in self.polyConfig['customParams']:
             self.user_key = self.polyConfig['customParams']['user_key']
+        if 'disclaimer_read' in self.polyConfig['customParams']:
+            self.d_read = self.polyConfig['customParams']['disclaimer_read']
         
         _params = self.polyConfig['customParams']
         for key, val in _params.items():
@@ -86,10 +89,12 @@ class Controller(polyinterface.Controller):
                 self.addNode(thingnode(self, self.address, _address, _key))
 		
         if self.api_key == 'none':
-            self.addNotice("No api key")                                                
+            self.addNotice('No api key, please enter your key.')                                                
         if self.user_key == 'none':
-            self.addNotice("No user key")
-                                                            
+            self.addNotice('No user key, please enter your key.')
+        if not self.d_read:
+            self.addNotice('Please read the Disclaimer at https://github.com/markv58/UDI-Push/blob/master/Disclaimer.md')
+
     def remove_notices_all(self,command):
         LOGGER.info('remove_notices_all:')
         # Remove all existing notices
