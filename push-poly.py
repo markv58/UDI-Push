@@ -125,7 +125,7 @@ class thingnode(polyinterface.Node):
     def send_pushover(self, command = None):
         _message = int(command.get('value'))
         try:
-            LOGGER.info("Sending Pushover message")
+            LOGGER.info("Sending Pushover message %s %s", self.title, ACTION[_message])
             #config = self.config['alerts']['pushover']
             conn = http.client.HTTPSConnection("api.pushover.net:443")
             conn.request("POST", "/1/messages.json",
