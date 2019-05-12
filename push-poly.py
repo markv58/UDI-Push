@@ -93,7 +93,7 @@ class Controller(polyinterface.Controller):
         if self.user_key == 'none':
             self.addNotice('No user key, please enter your key.')
         if not self.d_read:
-            self.addNotice('Please read the Disclaimer <a target="_blank" https://github.com/markv58/UDI-Push/blob/master/Disclaimer.md">here</a>')
+            self.addNotice('Please read the Disclaimer <a target="_blank" https://github.com/markv58/UDI-Push/blob/master/Disclaimer.md">here</a> to remove this notice.')
 
     def remove_notices_all(self,command):
         LOGGER.info('remove_notices_all:')
