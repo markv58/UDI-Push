@@ -41,7 +41,7 @@ class Controller(polyinterface.Controller):
         self.name = 'Push'
         self.api_key = 'none'
         self.user_key = 'none'
-	self.d_read = False
+        self.d_read = False
         
     def start(self):
         self.removeNoticesAll()
