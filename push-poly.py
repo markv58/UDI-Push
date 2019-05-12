@@ -79,7 +79,7 @@ class Controller(polyinterface.Controller):
         _params = self.polyConfig['customParams']
         for key, val in _params.items():
             _key = key.lower()	
-            if _key == 'api_key' or _key == 'user_key': # should parse out the keys, all others will be node
+            if _key == 'api_key' or _key == 'user_key' or _key == 'disclaimer_read': # should parse out the keys, all others will be node
                 pass 
             else:
                 _val = key.lower()
