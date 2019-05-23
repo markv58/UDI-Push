@@ -13,4 +13,6 @@
     Garage Door
     Etc
     
+The Key is limited to a max of 20 characters and will be truncated if longer.
+
 Be sure to save changes and restart the nodeserver.
