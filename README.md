@@ -4,9 +4,13 @@ Using your Pushover account you can send notifications from a program without ne
 
 This great for sending short pre-programed messages about your things, like doors, windows, leaks, alarms, lights, motion, low batteries, etc, etc.
 
+![Pushpic](https://github.com/markv58/github.io/blob/master/Pushpic.png)
+
 #### Installation
 
 Backup your ISY before installation please.
+
+Install from the NodeServer Store.
 
 Manual:
 
@@ -16,7 +20,7 @@ Manual:
     chmod +x install.sh
     ./install.sh
 
-Install from the NodeServer Store.
+
 
 Add Push to a node slot.
 
