@@ -32,7 +32,10 @@ ACTION = ['       ',
 	  'Triggered',
 	  'Don''t forget!',
 	  'WARNING',
-	  'EMERGENCY'
+	  'EMERGENCY',
+	  'Heat warning',
+	  'Cold warning',
+	  'Reset'
          ] 
 
 class Controller(polyinterface.Controller):
