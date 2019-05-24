@@ -10,7 +10,7 @@ ND-thingnodetype-NAME = Thing Node
 ND-thingnodetype-ICON = GenericCtl
 CMD-thingnode-ACTIONS-NAME = Message
 
-ACTION-0 = 
+ACTION-0 = Blank
 ACTION-1 = On
 ACTION-2 = Off
 ACTION-3 = Light on
@@ -33,3 +33,6 @@ ACTION-19 = Triggered
 ACTION-20 = Don't forget!
 ACTION-21 = WARNING
 ACTION-22 = EMERGENCY
+ACTION-23 = Heat warning
+ACTION-24 = Cold warning
+ACTION-25 = Reset

@@ -10,7 +10,7 @@ import requests
 
 LOGGER = polyinterface.LOGGER
           
-ACTION = ['       ',
+ACTION = [' ',
 	  'On',
 	  'Off',
 	  'Light on',
@@ -32,7 +32,10 @@ ACTION = ['       ',
 	  'Triggered',
 	  'Don''t forget!',
 	  'WARNING',
-	  'EMERGENCY'
+	  'EMERGENCY',
+	  'Heat warning',
+	  'Cold warning',
+	  'Reset'
          ] 
 
 class Controller(polyinterface.Controller):
@@ -48,6 +51,7 @@ class Controller(polyinterface.Controller):
         LOGGER.info('Started Push Nodeserver')
         self.check_params()
         self.setDriver('ST', 1)
+	LOGGER.info('If you have just upgraded hit the Update Profile button and restart the Admin Console')
         
     def shortPoll(self):
         pass
@@ -131,7 +135,6 @@ class thingnode(polyinterface.Node):
         _message = int(command.get('value'))
         try:
             LOGGER.info("Sending Pushover message %s %s", self.title, ACTION[_message])
-            #config = self.config['alerts']['pushover']
             conn = http.client.HTTPSConnection("api.pushover.net:443")
             conn.request("POST", "/1/messages.json",
                     urllib.parse.urlencode({
