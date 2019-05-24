@@ -33,3 +33,6 @@ ACTION-19 = Triggered
 ACTION-20 = Don't forget!
 ACTION-21 = WARNING
 ACTION-22 = EMERGENCY
+ACTION-23 = Heat warning
+ACTION-24 = Cold warning
+ACTION-25 = Reset
