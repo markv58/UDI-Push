@@ -4,6 +4,6 @@
         <range uom="2" subset="0,1" />
     </editor>
     <editor id="action">
-        <range uom="25" subset="0-22" nls="ACTION" />
+        <range uom="25" subset="0-25" nls="ACTION" />
     </editor>
 </editors>
