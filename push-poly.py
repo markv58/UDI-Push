@@ -10,7 +10,7 @@ import requests
 
 LOGGER = polyinterface.LOGGER
           
-ACTION = [' ',
+ACTION = ['        ',
 	  'On',
 	  'Off',
 	  'Light on',
