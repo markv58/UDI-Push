@@ -31,3 +31,4 @@ Enter your <user_key> and <api_key> from your Pushover account in the custom con
 you are ready to send notifications from your programs.
 
 v1.0.2 Fixed blank message, added new messages.
+v1.0.3 Fixed install to Polyglot Cloud
