@@ -8,7 +8,7 @@ This great for sending short pre-programed messages about your things, like door
 
 ![DBpic](https://github.com/markv58/github.io/blob/master/DBpic.png)
 
-![PushConf](https://github.com/markv58/github.io/blob/master/Push Config Help.png)
+![PushConf](https://github.com/markv58/github.io/blob/master/PushConfigHelp.png)
 
 #### Installation
 
