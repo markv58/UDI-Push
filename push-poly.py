@@ -85,14 +85,19 @@ class Controller(polyinterface.Controller):
         
         _params = self.polyConfig['customParams']
         for key, val in _params.items():
-            _key = key.lower()	
+            _key = key.lower()
             if _key == 'api_key' or _key == 'user_key' or _key == 'disclaimer_read': # should parse out the keys, all others will be node
-                pass 
+                pass
             else:
                 _val = key.lower()
                 _cleanaddress = _val.replace(' ','')
-                _address = _cleanaddress[0:12]
-                _key = key[0:20]		
+                if val == "":
+                    _address = _cleanaddress[:15]
+                else:
+                    address = val.lower()
+                    _clnaddress = address.replace(' ','')
+                    _address = _clnaddress[:15]
+                _key = key
                 self.addNode(thingnode(self, self.address, _address, _key))
 		
         if self.api_key == 'none':
