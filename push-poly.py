@@ -99,15 +99,7 @@ class Controller(polyinterface.Controller):
                     _clnaddress = address.replace(' ','')
                     _address1 = _clnaddress[:12] + _clnaddress[3:]
                 _key = key
-                for node in self.nodes:
-                    LOGGER.debug(node)
-                    if node == "controller":
-                        pass 
-                    else:
-                        if _key == self.address:
-                            pass
-                        else:
-                            self.addNode(thingnode(self, self.address, _address, _key))
+                self.addNode(thingnode(self, self.address, _address, _key))
 		
         if self.api_key == 'none':
             self.addNotice('No api key, please enter your key.')                                                
