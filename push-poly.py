@@ -92,12 +92,12 @@ class Controller(polyinterface.Controller):
                 _val = key.lower()
                 _cleanaddress = _val.replace(' ','')
                 if val == "":
-                    _address = (_cleanaddress[:12] + _cleanaddress[-3:])
+                    _address = (_cleanaddress[:10] + _cleanaddress[-3:])
                     LOGGER.debug(str(_address))
                 else:
                     address = val.lower()
                     _clnaddress = address.replace(' ','')
-                    _address1 = _clnaddress[:12] + _clnaddress[3:]
+                    _address1 = _clnaddress[:13] + _clnaddress[3:]
                 _key = key
                 self.addNode(thingnode(self, self.address, _address, _key))
 		
