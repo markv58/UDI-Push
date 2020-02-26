@@ -1,5 +1,9 @@
 # Push
 
+#### NOTICE:
+
+If you have duplicate nodes after an upgrade, delete all of the nodes except the Controller node then restart the nodeserver. Don't delete anything from the config page. Restart the nodeserver.
+
 Using your Pushover account you can send notifications from a program without needing a network resource.
 
 This great for sending short pre-programed messages about your things, like doors, windows, leaks, alarms, lights, motion, low batteries, etc, etc.
