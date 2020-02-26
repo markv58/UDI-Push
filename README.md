@@ -2,7 +2,7 @@
 
 #### NOTICE:
 
-If you have duplicate nodes after an upgrade, delete all of the nodes except the Controller node then restart the nodeserver. Don't delete anything from the config page. Restart the nodeserver.
+If you have duplicate nodes in the Nodes page in Polyglot after an upgrade, delete all of the nodes except the Controller node then restart the nodeserver. Don't delete anything from the config page. Restart the nodeserver.
 
 Using your Pushover account you can send notifications from a program without needing a network resource.
 
