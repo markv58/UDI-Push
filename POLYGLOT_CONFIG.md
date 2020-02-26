@@ -13,6 +13,6 @@
     Garage Door
     Etc
     
-The Key is limited to a max of 20 characters and will be truncated if longer.
+The node address is derived from the first 12 characters and last 2 characters of the Key therefore each key needs to be unique.
 
 Be sure to save changes and restart the nodeserver.
