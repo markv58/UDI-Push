@@ -93,7 +93,6 @@ class Controller(polyinterface.Controller):
                 _cleanaddress = _val.replace(' ','')
                 if val == "":
                     _address = (_cleanaddress[:12] + _cleanaddress[-2:])
-                    LOGGER.debug(str(_address))
                 else:
                     address = val.lower()
                     _clnaddress = address.replace(' ','')
