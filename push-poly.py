@@ -92,7 +92,7 @@ class Controller(polyinterface.Controller):
                 _val = key.lower()
                 _cleanaddress = _val.replace(' ','')
                 if val == "":
-                    _address = (_cleanaddress[:10] + _cleanaddress[-3:])
+                    _address = (_cleanaddress[:12] + _cleanaddress[-2:])
                     LOGGER.debug(str(_address))
                 else:
                     address = val.lower()
