@@ -42,3 +42,5 @@ v1.0.2 Fixed blank message, added new messages.
 v1.0.3 Fixed install to Polyglot Cloud
 
 v1.0.4 Fixed bug that caused ghost nodes under certain circumstances.
+
+v1.0.5 Fixed a problem caused by the previous fix, nodes were not being added correctly.
