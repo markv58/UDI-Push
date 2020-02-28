@@ -96,7 +96,7 @@ class Controller(polyinterface.Controller):
                 else:
                     address = val.lower()
                     _clnaddress = address.replace(' ','')
-                    _address1 = _clnaddress[:12] + _clnaddress[3:]
+                    _address = _clnaddress[:12] + _clnaddress[3:]
                 _key = key
                 self.addNode(thingnode(self, self.address, _address, _key))
 		
