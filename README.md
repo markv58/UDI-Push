@@ -44,3 +44,5 @@ v1.0.3 Fixed install to Polyglot Cloud
 v1.0.4 Fixed bug that caused ghost nodes under certain circumstances.
 
 v1.0.5 Fixed a problem caused by the previous fix, nodes were not being added correctly.
+
+v1.0.6 Rouge variable removed.
