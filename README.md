@@ -17,7 +17,7 @@ This great for sending short pre-programed messages about your things, like door
 
 #### Installation
 
-Backup your ISY before installation please.
+Backup your ISY and your Polyglot/Polisy before installation please.
 
 Install from the NodeServer Store.
 
