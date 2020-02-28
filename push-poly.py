@@ -92,6 +92,7 @@ class Controller(polyinterface.Controller):
                 _val = key.lower()
                 _cleanaddress = _val.replace(' ','')
                 _address = (_cleanaddress[:12] + _cleanaddress[-2:])
+		_key = key
                 self.addNode(thingnode(self, self.address, _address, _key))
 		
         if self.api_key == 'none':
